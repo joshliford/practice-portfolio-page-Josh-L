@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Page</title>
+    <title>Josh's Portfolio Page</title>
 </head>
 <body>
     <header>
-        <h1>Welcome to my Portfolio Page!</h1>
+        <h1>Welcome to Josh's Portfolio Page!</h1>
         <nav>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -18,10 +18,18 @@
         <section id="about">
             <h2>About Me</h2>
             <p>Hi! My name is Josh and I am a student at LaunchCode learning Full-Stack Web Development.</p>
+            <p>My interests & hobbies include:</p>
+            <ul>
+                <li>Playing the guitar</li>
+                <li>Golfing</li>
+                <li>Coding</li>
+                <li>Learning about AI</li>
+            </ul>
         </section>
         <section id="skills">
-            <table>
-                <caption>Skills Table</caption>
+            <h2>Skills</h2>
+            <table border="3">
+                <caption>My Skills</caption>
                 <tr>
                     <th>Tool</th>
                     <th>Proficiency</th>
@@ -48,6 +56,21 @@
                 </tr>
             </table>
         </section>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" email="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2025 Josh's Portfolio</p>
+        </footer>
     </main>
 </body>
 </html>
