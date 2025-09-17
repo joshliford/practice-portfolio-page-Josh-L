@@ -55,5 +55,19 @@ button {
 
 footer {
     font-size:small;
+    font-weight:600;
+}
+
+a {
+    color:black;
+    font-weight:600;
+}
+
+a:hover {
+    color:azure;
+}
+
+a:visited {
+    color:azure;
 }
 
