@@ -41,10 +41,12 @@ table {
     border-color:black;
     border-width: 2px;
     border-style: double;
+    border-collapse: collapse;
 }
 
-tr, th {
+tr, th, td {
     text-align: center;
+    padding: 5px;
 }
 
 button {
