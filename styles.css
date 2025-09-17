@@ -27,10 +27,19 @@ strong {
 }
 
 em {
-    color:blueviolet
+    color:darkslateblue
 }
 
 img {
     width:100px;
     border-radius: 15px;
 }
+
+table {
+    background-color: white;
+}
+
+button {
+    border-radius: 10px;
+}
+
